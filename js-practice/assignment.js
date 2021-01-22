@@ -1,18 +1,16 @@
 // Calculation kilometerToMeter
-
 function kilometerToMeter(kilometer) {
     var meter = kilometer * 1000;
     return meter;
 }
 
 //Calculation budgetCalculator
-
 function budgetCalculator(watch, phone, laptop) {
     var total = watch * 50 + phone * 100 + laptop * 500;
     return total;
 }
-// Calculation hotelCost
 
+// Calculation hotelCost
 function hotelCost(day) {
     var total = 0;
     if (day <= 10) {
@@ -33,8 +31,8 @@ function hotelCost(day) {
     }
     return total;
 }
-// Calculation megaFriend
 
+// Calculation megaFriend
 function megaFriend([friendLargeName]) {
     var friendLargeName = ["Ikramul", "Zayed", "Iffat"];
     var max = friendLargeName[0];
